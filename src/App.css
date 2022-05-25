@@ -1,4 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@500;800&display=swap');
+body,html{
+  height: 100%;
+}
 .App {
   text-align: center;
 }
@@ -7,6 +10,24 @@
   text-align: center;
 }
 body{
-  background-image: linear-gradient(rgb(97, 230, 226),rgb(252, 216, 216));
+  background:rgb(0, 144, 139);
   background-attachment: fixed;
+}
+.banner {
+  background-image:linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url(./comp/image1.jpg);
+  min-height: 100vh; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.homedata {
+  font-family: 'Merriweather Sans', sans-serif;
+  justify-content: center;
+  /* font-size: 60px; */
+  color: rgb(6, 90, 66);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  
 }
