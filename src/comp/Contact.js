@@ -2,7 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className="container">
+      <h1 style={{ color: "white" }}>Contact Page</h1>
+    </div>
   )
 }
 
